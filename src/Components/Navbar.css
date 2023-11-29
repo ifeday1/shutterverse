@@ -1,0 +1,148 @@
+.header {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .3s ease-in;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.9);
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    margin: auto;
+    height: 100%;
+    padding: 0 0rem;
+}
+
+
+
+.header .nav-menu a {
+    color: #ffffff;
+    text-decoration: none;
+     padding: 0 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Varela Round', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header .navbar .logo {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+color: #fff;
+font-family: 'Jomhuria', Courier, monospace;
+}
+
+
+
+.header .nav-menu {
+    display: flex;
+    list-style: none;
+    
+}
+
+
+.hamburger {
+    display: none;
+}
+.where{  
+    height: 1000px;
+font-weight: 500;
+font-size: 180px;
+line-height: 154px;
+padding-top: 150px;
+padding-left: 100px;
+background-color: black;
+color: white;
+
+}
+
+
+@media screen and (max-width:940px) {
+    .header {
+      max-width: 100%;
+       text-decoration: none;
+      
+    }
+
+    .header .navbar {
+      max-width: 100%;
+        list-style: none;
+         padding-left: 16px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: 100%;
+        top: 90px;
+        flex-direction: column;
+        background-color: rgba(0,0,0,.9);
+       width: 100%;
+        height: 100vh;
+        z-index: 999;
+        text-align: center;
+        transition: .3s;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 1.5rem 0;
+    }
+    .designer{
+        padding-top: 110px;
+font-weight: 500;
+font-size: 100px;
+line-height: 90px;
+top: 100px;
+background: linear-gradient(180.85deg, #FFFFFF 0.73%, rgba(255, 248, 248, 0) 118.56%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+text-align: center;
+}
+ 
+}
+
+@media screen and (max-width:656px) {
+    .designer {
+             padding-top: 110px;
+font-weight: 500;
+font-size: 50px;
+line-height: 60px;
+top: 100px;
+background: linear-gradient(180.85deg, #FFFFFF 0.73%, rgba(255, 248, 248, 0) 118.56%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
