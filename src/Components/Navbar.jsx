@@ -69,7 +69,7 @@ const Navbar = () => {
                 duration={500}
                 onClick={closeMenu}
               >
-                PROJECTS
+                SERVICES
               </Link>
             </li>
             <li className="nav-item">
@@ -85,11 +85,9 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
+
           <div></div>
         </nav>
-      </div>
-      <div className="where">
-        <h1>Where moments become timeless memories</h1>
       </div>
     </div>
   );

@@ -53,7 +53,7 @@ font-family: 'Jomhuria', Courier, monospace;
     display: none;
 }
 .where{  
-    height: 1000px;
+    height: 1100px;
 font-weight: 500;
 font-size: 180px;
 line-height: 154px;
@@ -61,6 +61,7 @@ padding-top: 150px;
 padding-left: 100px;
 background-color: black;
 color: white;
+position: relative;
 
 }
 
@@ -102,35 +103,32 @@ color: white;
     .nav-item {
         margin: 1.5rem 0;
     }
-    .designer{
+    .where{
+         max-width: 100%;
         padding-top: 110px;
 font-weight: 500;
 font-size: 100px;
 line-height: 90px;
 top: 100px;
-background: linear-gradient(180.85deg, #FFFFFF 0.73%, rgba(255, 248, 248, 0) 118.56%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
-text-align: center;
+background: black;
+padding-left: 10px;
+margin: 0;
 }
  
 }
 
 @media screen and (max-width:656px) {
-    .designer {
+    .where {
+          max-width: 100%;
              padding-top: 110px;
 font-weight: 500;
 font-size: 50px;
 line-height: 60px;
 top: 100px;
-background: linear-gradient(180.85deg, #FFFFFF 0.73%, rgba(255, 248, 248, 0) 118.56%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
+background: black;
+padding-left: 10px;
 text-align: center;
+margin: 0;
     }
 }
 

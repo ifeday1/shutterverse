@@ -1,8 +1,15 @@
+/* src/index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
    
+  
 }
 
 body {
@@ -15,7 +22,7 @@ body {
 }
 @media screen and (max-width:940px) {
     body {
-padding: 0px 16px;
+padding: 0px 0px;
     }
   }
 
