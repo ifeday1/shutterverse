@@ -17,13 +17,13 @@ const LandingPage = () => {
                 zIndex: "10",
               }}
               src={Photo}
-              alt="image"
+              alt="timeless"
             />
           </div>
         </div>
       </div>
       {/* About */}
-      <div className="bg-slate-900 w-80 h-96">
+      <div className="bg-dark-brown w-80 h-96">
         <h2 className="mt-96 pl-16 pr-16">About</h2>
         <h1 className="text-lg">
           I specialize in creating stunning visual stories through the lens.
