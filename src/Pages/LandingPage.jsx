@@ -25,9 +25,10 @@ const LandingPage = () => {
         </div>
       </div>
       {/* About */}
-      <div className="bg-dark-brown w-80 h-96">
-        <h2 className="mt-96 pl-16 pr-16 ">About</h2>
-        <h1 className="text-lg">
+      <div className="">
+        <h2 class=" mt-[500px] text-[30px] pl-[20px] md:pl-[90px] ">About</h2>
+
+        <h1 className="  pl-[20px] md:pl-[90px] text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-semi-bold">
           I specialize in creating stunning visual stories through the lens.
           From weddings to family portraits, events to landscapes, every
           photograph I take encapsulates emotions, beauty, and unforgettable
