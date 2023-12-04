@@ -62,7 +62,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="project"
+                to="service"
                 spy={true}
                 smooth={true}
                 offset={-100}
