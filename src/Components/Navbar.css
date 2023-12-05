@@ -64,6 +64,15 @@ color: white;
 position: relative;
 
 }
+.bo {
+  --mask:
+    radial-gradient(313.05px at 50% calc(100% - 420.00px),#000 99%,#0000 101%) calc(50% - 280px) 0/560px 100%,
+    radial-gradient(313.05px at 50% calc(100% + 280.00px),#0000 99%,#000 101%) 50% calc(100% - 140px)/560px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+          background-color: #000;
+          height: 1100px;
+}
 
 
 @media screen and (max-width:940px) {
@@ -115,6 +124,9 @@ background: black;
 padding-left: 10px;
 margin: 0;
 }
+.bo{
+    height: 900px;
+}
  
 }
 
@@ -131,6 +143,9 @@ padding-left: 10px;
 text-align: center;
 margin: 0;
     }
+    .bo{
+    height: 900px;
+}
 }
 
 

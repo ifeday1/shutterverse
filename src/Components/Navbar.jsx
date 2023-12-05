@@ -74,6 +74,18 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link
+                to="why"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                onClick={closeMenu}
+              >
+                WHY CHOOSE US
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
                 to="contact"
                 spy={true}
                 smooth={true}
