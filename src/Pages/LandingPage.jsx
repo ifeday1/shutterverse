@@ -19,7 +19,7 @@ const LandingPage = () => {
       </div>
       {/* About */}
       <div className="" id="about">
-        <h2 class=" mt-[200px]  mb-[20px] text-[30px] pl-[20px] md:pl-[90px] md:mt-[500px] md:mb-[10px] ">
+        <h2 class=" mt-[200px]  mb-[20px] text-[30px] ml-[20px] md:ml-[90px] md:mt-[500px] md:mb-[10px] border-b  mr-[1270px] border-black">
           About
         </h2>
 
@@ -33,7 +33,7 @@ const LandingPage = () => {
 
       {/* service */}
       <div class=" bg-black" id="service">
-        <h2 class=" mt-[50px] text-[30px] pl-[20px] md:pl-[90px]  text-white pt-6">
+        <h2 class=" mt-[50px] text-[30px] ml-[20px] md:ml-[90px] text-white pt-6 border-b mr-[1260px] border-white">
           Service
         </h2>
         <div class="container mx-auto px-4 py-8 flex flex-col md:flex-row items-left">
@@ -132,14 +132,14 @@ const LandingPage = () => {
 
       {/* why choose us */}
       <div className="" id="why">
-        <h2 class=" text-[30px] pl-[20px] md:pl-[90px]  text-black">
+        <h2 class=" text-[30px] ml-[20px] md:ml-[90px]  text-black border-b mr-[1115px] border-black">
           Why Choose Us
         </h2>
         <div class="container mx-auto px-4 py-8">
           <div class="flex flex-col md:flex-row justify-between">
             <div class="w-full md:w-1/3 h-[600px] bg-blue-200 p-4 flex flex-col items-center justify-center ">
               <img
-                class="w-full"
+                class="w-full h-[600px]"
                 src="https://via.placeholder.com/500x500"
                 alt="Image 1"
               ></img>
@@ -165,6 +165,64 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
+      </div>
+      {/* contact */}
+      <div class="border-t border-black font-bold h-{4] "></div>
+      <div class="container mx-auto px-4 py-8">
+        <div class="flex flex-col md:flex-row  justify-between">
+          <div class=" mb-4 md:mb-0 md:mr-4">
+            <p class="text-lg md:text-xl font-bold">Let’s work together.</p>
+          </div>
+
+          <div class="">
+            <p class="text-lg md:text-xl font-bold">
+              Brand Identity / Brand Strategy / Illustration/ <br></br>Art
+              Direction / Photography & Video / <br></br>Website Design /
+              Packaging / Social Media /<br></br>
+              Branded Interiors / Naming
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mx-auto px-4 py-8 font-bold text-lg">
+        <div class="flex flex-col md:flex-row  justify-between">
+          <div class="w-full md:w-1/2 flex flex-col mx-2 my-4 p-">
+            <a
+              href="https://example.com/link1"
+              id="home"
+              class=" border-b mb-2"
+            >
+              Home{" "}
+              <span href="https://example.com/link2" class="border-b mb-2">
+                /About
+              </span>
+              <spam id="services">/Services</spam>
+            </a>
+
+            <a href="https://example.com/link1" class=" border-b mb-2">
+              Why Choose Us
+              <span href="https://example.com/link2" class="border-b mb-2">
+                /Contact
+              </span>
+            </a>
+          </div>
+
+          <div class="w-full md:w-1/2 flex flex-col md:items-end items-start  mx-2 my-4 ">
+            <a href="https://example.com/linkA" class="block mb-2">
+              Oladeniifeoluwa123@gmai.com
+            </a>
+            <a href="https://example.com/linkB" class="block mb-2">
+              Behance <span>Instagram</span>
+              <span> Dribble</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="  mb-[20px] text-[15px] font-bold ml-[20px] md:ml-[90px] ">
+          ShutterVerse Creations
+        </h2>
       </div>
     </>
   );
