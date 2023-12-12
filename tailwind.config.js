@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         brown: "#6D5000",
         green: "#095A38",
+        peach: "#BD9292",
+        per: "#7BB2AB",
+        grey: "#E2E5F2",
       },
     },
   },

@@ -5,6 +5,8 @@ import Wedding from "../assests/Wedding.jpg";
 import Family from "../assests/Fsamily.jpg";
 import Landscape from "../assests/Landspcape.jpg";
 import Passion from "../assests/Passion.jpg";
+import Per from "../assests/Personalized.jpg";
+import Pro from "../assests/Professiom.jpg";
 
 const LandingPage = () => {
   return (
@@ -135,37 +137,57 @@ const LandingPage = () => {
         <h2 class=" text-[30px] ml-[20px] md:ml-[90px]  text-black border-b mr-[1115px] border-black">
           Why Choose Us
         </h2>
+
         <div class="container mx-auto px-4 py-8">
           <div class="flex flex-col md:flex-row justify-between">
-            <div class="w-full md:w-1/3 h-[600px] bg-blue-200 p-4 flex flex-col items-center justify-center ">
-              <img
-                class="w-full h-[600px]"
-                src="https://via.placeholder.com/500x500"
-                alt="Image 1"
-              ></img>
-              {/* <img src={Passion} /> */}
-              <p>Rectangle 1</p>
-              <div class="bg-blue-500 h-24 w-24 mt-4 flex items-center justify-center">
-                <div class="bg-white h-16 w-16 rounded-full"></div>
+            <div class="w-full md:w-1/3 mb-4 md:mb-0 mr-0 md:mr-4">
+              <div class=" relative rounded-l-lg overflow-hidden shadow-lg">
+                <img class="w-full" src={Passion} alt="Image 1" />
+                <div class="absolute inset-0 flex  text-white  flex-col">
+                  <p className="mt-24  pl-11 text-black font-medium text-3xl">
+                    Passion for<br></br>Perfection
+                  </p>
+                  <div className=" rounded-r-lg px-7 py-3 text-white mt-[300px] md:mt-[450px] pl-11 bg-peach  mr-28">
+                    I am dedicated to delivering high-quality, artistic, and
+                     authentic photographs that exceed your expectations.
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="hidden md:block w-4"></div>
-            <div class="w-full md:w-1/3 h-[600px] bg-slate-500 bg-green-200 p-4 flex flex-col items-center justify-center  mt-4 md:mt-0">
-              <p>Rectangle 2</p>
-              <div class="bg-green-500 h-24 w-24 mt-4 flex items-center justify-center">
-                <div class="bg-white h-16 w-16 rounded-full"></div>
+
+            <div class="w-full md:w-1/3 mb-4 md:mb-0 mr-0 md:mr-4">
+              <div class=" relative rounded-l-lg overflow-hidden shadow-lg">
+                <img class="w-full" src={Per} alt="Image 1" />
+                <div class="absolute inset-0 flex  text-white  flex-col">
+                  <p className="mt-24  pl-11 text-black font-medium text-3xl">
+                    Personalized <br></br> Approach
+                  </p>
+                  <div className=" rounded-r-lg px-11 py-3 text-black mt-[300px] md:mt-[450px] pl-11 bg-per  mr-28">
+                    Each session is tailored to reflect your unique story and
+                    style.
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="hidden md:block w-4"></div>
-            <div class="w-full md:w-1/3 h-[600px] bg-yellow-200 p-4 flex flex-col items-center justify-center mt-4 md:mt-0">
-              <p>Rectangle 3</p>
-              <div class="bg-yellow-500 h-24 w-24 mt-4 flex items-center justify-center">
-                <div class="bg-white h-16 w-16 rounded-full"></div>
+
+            <div class="w-full md:w-1/3 mb-4 md:mb-0 mr-0 md:mr-4">
+              <div class=" relative rounded-l-lg overflow-hidden shadow-lg">
+                <img class="w-full" src={Pro} alt="Image 1" />
+                <div class="absolute inset-0 flex  text-white  flex-col">
+                  <p className="mt-24  pl-11 text-black font-medium text-3xl">
+                    Professionalism & <br></br> Reliability
+                  </p>
+                  <div className=" rounded-r-lg px-11 py-3 text-black mt-[300px] md:mt-[450px] pl-11 bg-grey  mr-28">
+                    Rest assured, I will be there to capture your moments with
+                    professionalism and a keen eye for detail.
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       {/* contact */}
       <div class="border-t border-black font-bold h-{4] "></div>
       <div class="container mx-auto px-4 py-8">
