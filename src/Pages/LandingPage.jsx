@@ -11,8 +11,13 @@ import Pro from "../assests/Professiom.jpg";
 const LandingPage = () => {
   return (
     <>
-      <div class="">
-        <div className="where">
+      <div>
+        <div
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="where"
+        >
           <h1>Where moments become timeless memories</h1>
           <div class=" pt-20 w-72 float-right md:w-[600px] md:pt-[30px]">
             <img src={Photo} alt="timeless" />
@@ -20,7 +25,13 @@ const LandingPage = () => {
         </div>
       </div>
       {/* About */}
-      <div className="" id="about">
+      <div
+        data-aos="fade-up-right"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        className=""
+        id="about"
+      >
         <h2 class=" mt-[200px]  mb-[20px] text-[30px] ml-[20px] md:ml-[90px] md:mt-[500px] md:mb-[10px] border-b  mr-[1270px] border-black">
           About
         </h2>
@@ -38,7 +49,13 @@ const LandingPage = () => {
         <h2 class=" mt-[50px] text-[30px] ml-[20px] md:ml-[90px] text-white pt-6 border-b mr-[1260px] border-white">
           Service
         </h2>
-        <div class="container mx-auto px-4 py-8 flex flex-col md:flex-row items-left">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="2000"
+          class="container mx-auto px-4 py-8 flex flex-col md:flex-row items-left"
+        >
           <div class="md:w-1/2 md:mr-4">
             <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white -700 mb-[10px] md:mb-[550px]  ">
               Wedding
@@ -51,7 +68,13 @@ const LandingPage = () => {
               memories.
             </p>
           </div>
-          <div class="md:w-1/2 mt-4 md:mt-0">
+          <div
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="2000"
+            class="md:w-1/2 mt-4 md:mt-0"
+          >
             <img
               class="w-full h-auto rounded-lg"
               src={Wedding}
@@ -64,15 +87,25 @@ const LandingPage = () => {
       <div class="bg-brown">
         <div class="container mx-auto px-4 py-8">
           <div class="flex flex-col md:flex-row justify-end">
-            <div class="md:w-1/2 mt-4 md:mt-0">
+            <div
+              data-aos="fade-right"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="2000"
+              class="md:w-1/2 mt-4 md:mt-0"
+            >
               <img
                 class="w-full h-auto rounded-lg "
                 src={Family}
-                alt="Responsive Image"
+                alt="Resp onsive Image"
               />
             </div>
 
-            <div class="md:w-1/2 flex flex-col items-left text-white mt-4 md:mt-0 order-1 md:order-2 ">
+            <div
+              // data-aos="fade-left"
+              // data-aos-easing="ease-in-sine"
+              // data-aos-duration="2000"
+              class="md:w-1/2 flex flex-col items-left text-white mt-4 md:mt-0 order-1 md:order-2 "
+            >
               <p class="text-3xl md:text-4xl lg:text-5xl font-bold text-white -700 mb-[10px] md:mb-[550px]  text-right">
                 Family <br></br> Portraits
               </p>
@@ -88,7 +121,13 @@ const LandingPage = () => {
       {/* landscape */}
       <div class="bg-green">
         <div class="container mx-auto px-4 py-8 flex flex-col md:flex-row items-left">
-          <div class="md:w-1/2 md:mr-4">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="2000"
+            class="md:w-1/2 md:mr-4"
+          >
             <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white -700 mb-[50px] md:mb-[550px]  ">
               Landscape<br></br> Photography
             </h1>
@@ -98,7 +137,13 @@ const LandingPage = () => {
               <br></br>captivating landscapes.
             </p>
           </div>
-          <div class="md:w-1/2 mt-4 md:mt-0">
+          <div
+            // data-aos="fade-left"
+            // data-aos-offset="300"
+            // data-aos-easing="ease-in-sine"
+            // data-aos-duration="2000"
+            class="md:w-1/2 mt-4 md:mt-0"
+          >
             <img
               class="w-full h-auto rounded-lg"
               src={Landscape}
@@ -111,7 +156,13 @@ const LandingPage = () => {
       <div className="bo">
         <div class="container mx-auto px-4 py-8">
           <div class="flex flex-col md:flex-row ">
-            <div class="md:w-1/2 flex justify-center">
+            <div
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="2000"
+              class="md:w-1/2 flex justify-center"
+            >
               <img
                 class="w-full h-auto rounded-lg"
                 src={Wedding}
@@ -119,7 +170,13 @@ const LandingPage = () => {
               />
             </div>
 
-            <div class="md:w-1/2 flex flex-col items-left text-white mt-4 md:mt-0 order-1 md:order-2 ">
+            <div
+              // data-aos="fade-left"
+              // data-aos-offset="300"
+              // data-aos-easing="ease-in-sine"
+              // data-aos-duration="2000"
+              class="md:w-1/2 flex flex-col items-left text-white mt-4 md:mt-0 order-1 md:order-2 "
+            >
               <p class="text-3xl md:text-4xl lg:text-5xl font-bold text-white -700 mb-[10px] md:mb-[550px]  text-right">
                 Event<br></br> Coverage
               </p>
@@ -140,7 +197,12 @@ const LandingPage = () => {
 
         <div class="container mx-auto px-4 py-8">
           <div class="flex flex-col md:flex-row justify-between">
-            <div class="w-full md:w-1/3 mb-4 md:mb-0 mr-0 md:mr-4">
+            <div
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="w-full md:w-1/3 mb-4 md:mb-0 mr-0 md:mr-4"
+            >
               <div class=" relative rounded-l-lg overflow-hidden shadow-lg">
                 <img class="w-full" src={Passion} alt="Image 1" />
                 <div class="absolute inset-0 flex  text-white  flex-col">
@@ -149,13 +211,18 @@ const LandingPage = () => {
                   </p>
                   <div className=" rounded-r-lg px-7 py-3 text-white mt-[300px] md:mt-[450px] pl-11 bg-peach  mr-28">
                     I am dedicated to delivering high-quality, artistic, and
-                     authentic photographs that exceed your expectations.
+                    authentic photographs that exceed your expectations.
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="w-full md:w-1/3 mb-4 md:mb-0 mr-0 md:mr-4">
+            <div
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="w-full md:w-1/3 mb-4 md:mb-0 mr-0 md:mr-4"
+            >
               <div class=" relative rounded-l-lg overflow-hidden shadow-lg">
                 <img class="w-full" src={Per} alt="Image 1" />
                 <div class="absolute inset-0 flex  text-white  flex-col">
@@ -170,7 +237,12 @@ const LandingPage = () => {
               </div>
             </div>
 
-            <div class="w-full md:w-1/3 mb-4 md:mb-0 mr-0 md:mr-4">
+            <div
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              class="w-full md:w-1/3 mb-4 md:mb-0 mr-0 md:mr-4"
+            >
               <div class=" relative rounded-l-lg overflow-hidden shadow-lg">
                 <img class="w-full" src={Pro} alt="Image 1" />
                 <div class="absolute inset-0 flex  text-white  flex-col">
@@ -189,14 +261,32 @@ const LandingPage = () => {
       </div>
 
       {/* contact */}
-      <div class="border-t border-black font-bold h-{4] "></div>
-      <div class="container mx-auto px-4 py-8">
+      <div
+        // data-aos="fade-right"
+        // data-aos-offset="300"
+        // data-aos-easing="ease-in-sine"
+        // data-aos-duration="2000"
+        class="border-t border-black font-bold h-{4] "
+      ></div>
+      <div
+        data-aos="fade-down"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="2000"
+        class="container mx-auto px-4 py-8"
+      >
         <div class="flex flex-col md:flex-row  justify-between">
           <div class=" mb-4 md:mb-0 md:mr-4">
             <p class="text-lg md:text-xl font-bold">Let’s work together.</p>
           </div>
 
-          <div class="">
+          <div
+            data-aos="fade-down"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="2000"
+            class=""
+          >
             <p class="text-lg md:text-xl font-bold">
               Brand Identity / Brand Strategy / Illustration/ <br></br>Art
               Direction / Photography & Video / <br></br>Website Design /
@@ -207,7 +297,11 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <div class="container mx-auto px-4 py-8 font-bold text-lg">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        class="container mx-auto px-4 py-8 font-bold text-lg"
+      >
         <div class="flex flex-col md:flex-row  justify-between">
           <div class="w-full md:w-1/2 flex flex-col mx-2 my-4 p-">
             <a
@@ -241,7 +335,7 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div data-aos="fade-up" data-aos-duration="2000">
         <h2 class="  mb-[20px] text-[15px] font-bold ml-[20px] md:ml-[90px] ">
           ShutterVerse Creations
         </h2>
