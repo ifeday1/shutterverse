@@ -267,6 +267,7 @@ const LandingPage = () => {
         // data-aos-easing="ease-in-sine"
         // data-aos-duration="2000"
         class="border-t border-black font-bold h-{4] "
+        id="contact"
       ></div>
       <div
         data-aos="fade-down"
