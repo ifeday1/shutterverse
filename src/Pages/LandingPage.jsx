@@ -327,7 +327,7 @@ const LandingPage = () => {
           </div>
 
           <div class='w-full md:w-1/2 flex flex-col md:items-end items-start  mx-2 my-4 '>
-            <a href='mailto:oladeniifeoluwa123@gmsilcom' class='block mb-2'>
+            <a href='mailto:oladeniifeoluwa123@gmailcom' class='block mb-2'>
               Oladeniifeoluwa123@gmai.com
             </a>
 
