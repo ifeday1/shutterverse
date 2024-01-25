@@ -340,7 +340,7 @@ const LandingPage = () => {
       </div>
       <div data-aos='fade-up' data-aos-duration='2000'>
         <h2 class='  mb-[20px] text-[15px] font-bold ml-[20px] md:ml-[90px] '>
-          ShutterVerse Creations
+          ShutterVerse Creation 2024
         </h2>
       </div>
     </>
