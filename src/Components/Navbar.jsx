@@ -6,7 +6,6 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 
 const Navbar = () => {
-  //useEffect
   useEffect(() => {
     AOS.init();
     AOS.refresh();
