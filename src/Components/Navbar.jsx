@@ -49,7 +49,6 @@ const Navbar = () => {
                         nClick={closeMenu}>Home</a>
                     </li> */}
 
-            {/* comment */}
             <li className='nav-item'>
               <Link
                 to='about'
